@@ -7,7 +7,7 @@ Replacement of ComarchOSS
 
 
 ### Scope  
-The current ComarchOSS based Firmware Management is to be replaced by an open source Tool (that will be provided by TechM) ontop of a service based interface (to be provided by the MW SDN domain).  
+The current ComarchOSS based Firmware Management is to be replaced by an open source Tool ontop of a service based interface (to be provided by the MW SDN domain).  
 
 The following scope is currently discussed between the ToolStream (consumers) and the InterfaceStream (MW SDN domain) of the ComarchOSS Replacement project: 
  - **Upgrade Path** NE software must be upgraded via the mobile backhaul. Software packages will be stored in an external file repository, typically a network file system, organized hierarchically for easy access by the OpenBackhaul system. Repository details and links must be provided during the integration phase.
