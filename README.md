@@ -5,9 +5,8 @@ The firmware upgrade capability in a network management system provides centrali
 ### Driver  
 Replacement of ComarchOSS  
 
-
 ### Scope  
-The current ComarchOSS based Firmware Management is to be replaced by an open source Tool ontop of a service based interface (to be provided by the MW SDN domain).  
+The current Firmware Management is to be replaced by an open source Tool ontop of a service based interface (to be provided by the MW SDN domain).  
 
 The following scope is currently discussed between the ToolStream (consumers) and the InterfaceStream (MW SDN domain) of the ComarchOSS Replacement project: 
  - **Upgrade Path** NE software must be upgraded via the mobile backhaul. Software packages will be stored in an external file repository, typically a network file system, organized hierarchically for easy access by the OpenBackhaul system. Repository details and links must be provided during the integration phase.
@@ -30,28 +29,27 @@ The following scope is currently discussed between the ToolStream (consumers) an
       3.	Notifications, execution details, and trace logs must be captured in a Notification and Log Management module/screen.
       4.	Transaction details for both download and activation must be recorded in a Transaction Management module/screen.
 
-**First three consecutive iterations:**  
-
-_scope to be added here_
-
-**Out of Scope:** 
+### Out of Scope  
  - Rollback functionality (not supported, as most NEs contain only a single bank for software loading with no standby bank).
  - Support for non SDN devices.
  - Any enhancements outside the microwave SDN domain integration.
 
-### Components  
-The following components are required for implementing the _FirmwareManagement UserDemand.  
+### Detailed Requirements
+See [detailed list of requirements](../../issues) in the issues section.  
 
-**New Applications:**  
+### Components  
+The following components are required for implementing the _FirmwareManagement UserDemand:
+- _to be designed_
+
+### New Applications  
 - FirmwareUpgrade microservice.
 - UserInterface for firmware upgrade tasks  
 
-**To be updated Applications:**  
+### To be updated Applications
 - MicroWaveDeviceInventory
 - MicroWaveDeviceGateKeeper
 
-**Dependencies on on-going Implementations:**  
+### Dependencies on on-going Implementations  
 - SDN Controller integration for device status and parameter synchronization.
 - Planning Tool integration for onboarding device data.
 - External repository connectivity for backup storage.
-
