@@ -15,9 +15,7 @@ Replacement of ComarchOSS
 </p>  
 
 **Detailed Requirements:**  
-See [detailed list of requirements](../../issues) in the issues section.  
-
-     Hier wäre ein konkreterer Link mit den Labels, welche die high level Anforderungen kennzeichnen, sinnvoller  
+See [detailed list of requirements](../../issues?q=is%3Aissue%20label%3AHighLevelLevelRequirement) in the issues section.  
 
 ## Components
 
