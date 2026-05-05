@@ -15,7 +15,7 @@ Replacement of ComarchOSS
 </p>  
 
 **Detailed Requirements:**  
-See [detailed list of requirements](../../issues?q=is%3Aissue%20label%3AHighLevelLevelRequirement) in the issues section.  
+See [detailed list of requirements](../../issues?q=is%3Aissue%20label%3AHighLevelRequirement) in the issues section.  
 
 ## Components
 
